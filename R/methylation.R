@@ -1717,7 +1717,6 @@ getTSS <- function(genome = "hg38", TSS = list(upstream = NULL, downstream = NUL
                     "transcript_end",
                     "ensembl_transcript_id",
                     "ensembl_gene_id",
-                    "entrezgene",
                     "external_gene_name")
 
     chrom <- c(1:22, "X", "Y","M","*")
